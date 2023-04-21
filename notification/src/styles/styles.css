@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+/* font-family: 'Plus Jakarta Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+}
+
+.container {
+    font-size: 15px;
+    padding-inline: 2.75rem;
+    /* padding-top: 2rem; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: white;
+    width: 700px;
+    height: 760px;
+    margin:  auto;
+    margin-top: 100px;
+}
+
+.containerNoti {
+    margin-top: 40px;
+}
+
+.headerNoti {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 630px;
+    padding-inline: 2.5rem ;
+    margin-bottom: 20px;
+}
+
+.notific {
+    color: hsl(224, 21%, 14%);
+    font-weight: bold;
+    font-size: 23px;
+    cursor: default;
+}
+
+#notifHeader {
+    padding: 0px 10px;
+    background-color: hsl(219, 85%, 26%);
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.markAll {
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+
+.photoP {
+    width: 40px;
+}
+
+.imgKimb {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    cursor: pointer;
+}
+
+.picture {
+    width: 50px;
+}
+
+#privateMessage {
+    border: 1px solid hsl(211, 68%, 94%);
+    color: hsl(219, 12%, 42%);
+    margin-left: 3.25rem;
+    width: 490px;
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    margin-top: 5px;
+}
+
+.timeMessage {
+    padding-inline-start: 3.5rem;
+    /* margin-top: -5px; */
+}
+
+/* #kimbTime { 
+    margin-top: 10px;
+} */
+
+#rizkyTime {
+    margin-bottom: 10px;
+}
+
+#nathanTime {
+    margin-top: 10px;
+}
+
+.timeCard {
+    color: hsl(219, 14%, 63%);
+    /* margin-top: 10px; */
+}
+
+.nameCard {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.aboutCard {
+    color: hsl(219, 12%, 42%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.actionCard {
+    color: hsl(219, 12%, 42%);
+}
+
+.aboutGroup {
+    color: hsl(219, 85%, 26%);
+    font-weight: bold;
+    
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        padding-inline: 0px;
+        width: 375px;
+        margin-top: 30px;
+        font-size: 13px;
+    }
+
+    .headerNoti {
+        width: 355px;
+        padding-inline: 0rem;
+        padding-inline-start: 1.5rem;
+    }
+
+    #privateMessage {
+        width: 260px;
+        margin-left: 3rem;
+        
+    }
+
+    
+}
